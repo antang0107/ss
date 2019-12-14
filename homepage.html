@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <title>#EG</title>
     <link rel="stylesheet" href="style.css">
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready( function() {
+
+$("#headers").load("test.html");
+});
+
+
   </head>
 
   <body>
@@ -12,9 +19,7 @@
 
   <div id="grid">
   <div w3-include-html="test.html"></div>
-  <script>
-w3IncludeHTML();
-</script>
+  <div id="headers"></div>
     <div>
         <h2>0.#EG 소개</h2>
           <p>이 웹은 학생들의 영어 학습을 돕고 만든이도 만들면서 복습을 하기위해 만들어진 사이
