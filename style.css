@@ -1,0 +1,32 @@
+h1{
+  border-bottom:5px solid green;
+  text-align:center;
+  margin:0px;
+  padding:40px;
+  background-color:lightgreen;
+  font-size: 50PX;
+}
+ol{
+  border-right:4px solid green;
+  margin:0px;
+  padding:30px;
+  height:2000px;
+  background-color:lightgreen;
+  text-decoration:none;
+}
+body{
+  margin:0px;
+}
+#grid{
+  display:grid;
+  grid-template-columns:200px 1fr;s
+}
+h2{
+  color:blue;
+}
+#maintext{
+  padding:20px;
+}
+#example{
+  color:orange;
+}
